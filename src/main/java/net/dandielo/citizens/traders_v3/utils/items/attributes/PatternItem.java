@@ -33,7 +33,7 @@ public class PatternItem extends StockItemAttribute {
 		return equals(attr);
 	}
 	
-	@Override
+	
 	public boolean equals(ItemAttribute attr)
 	{
 		return priority >= ((PatternItem)attr).priority;
